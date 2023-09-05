@@ -1,0 +1,183 @@
+.navbar-container{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 1);
+    width: 100%;
+    height: 100px;
+    z-index: 1000;
+    
+  }
+  
+  
+  
+  
+  
+  
+  .navbar-container>ul{
+    display: flex;
+    justify-content: space-between;
+  
+    width: 100%;
+   
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-around;
+  }
+  
+  .navbar-container li a{
+    text-decoration: none;
+    color: #23325B;
+    font-weight: bold;
+  
+   
+    
+    
+  
+  
+  }
+  
+  
+  
+  .navbar-container li a:hover{
+    color: 
+    #2596be;
+  }
+  
+  .navbar-container img{
+    width: 100px;
+  }
+  
+  .navbar-container input{
+    display: none;
+  
+  }
+  .navbar-container label{
+    display: block;
+    width: 100%;
+  }
+  
+  
+  
+  @media only screen and (max-width: 600px){
+    .hamburger{
+      position: relative;
+      top: -20px;
+      
+      display: block;
+      width: 40px;
+      border: none;
+      margin-right: 20px;
+      background-color: white;
+      padding: 0px;
+      height: 5px;
+     
+    }
+    #line1,
+    #line2,
+    #line3
+    {
+      height: 5px;
+      margin: 10px;
+    
+      background-color: black;
+      
+     width:40px;
+     transform-origin: 9.7px;
+     transition: all .5s ;
+      
+  
+      
+    }
+  
+  
+    .navbar-container img{
+      width: 80px;
+   
+      
+      
+    }
+    
+  
+    .navbar-container ul{
+      flex-direction: column;
+      background-color: white;
+      display: none;
+      top: -100px;
+      transition: all .5s ;
+      
+   
+      
+  
+    }
+   
+  
+  
+    .navbar-container ul li{
+      margin: 20px;
+    }
+    
+    .navbar-container ul li:hover{
+     color: 
+     #2596be;
+    }
+    .logo-container{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      
+  
+     
+      width: 100%;
+    }
+  
+    .logo-container img{
+  
+     
+      flex-grow: 0;
+    }
+    .navbar-container{
+     
+      height: 60px;
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      
+      
+     
+    }
+    .cb-slideshow {
+      
+      top: 2px;
+      
+      
+  
+  }
+  
+  
+  
+  
+  } 
+  
+  @media only screen and (min-width: 800px){
+    .navbar-container>ul{
+      display: flex;
+      justify-content: space-between;
+    
+      width: 100%;
+     
+      flex-direction: row;
+      list-style-type: none;
+      justify-content: space-around;
+    }
+  
+  
+  
+  
+  
+  }
+  

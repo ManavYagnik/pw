@@ -1,0 +1,19 @@
+*{
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.home-header{
+    background-color: aqua;
+    height: 100px;
+    width: 100%;
+}
+
+.navbar-help{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
